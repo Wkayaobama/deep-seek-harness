@@ -1,0 +1,14 @@
+{
+  "name": "deep-seek-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local launcher for the DeepSeek Harness (dsh) Web UI at http://127.0.0.1:3080",
+  "scripts": {
+    "start": "dsh web",
+    "start:no-open": "dsh web --no-open",
+    "update:dsh": "npm install @deepseek-ai/dsh@latest"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh": "0.1.1-rc.2"
+  }
+}
